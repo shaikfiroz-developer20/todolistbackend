@@ -42,7 +42,7 @@ const server = http.createServer(app);
 const port = process.env.portnum;
 
 mongoose
-  .connect('mongos')
+  .connect(`${mongos}`)
   .then(() => {
     console.log('connected to mongodb atlas');
   })

@@ -1,11 +1,6 @@
 # Dependency directories
 node_modules/
 
-# Environment variables (if using .env files)
-.env
 
-# Logs
-logs/
-*.log
 
 
